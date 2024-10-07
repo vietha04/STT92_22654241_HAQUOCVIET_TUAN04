@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bai 2a</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <script src="../js/jquery-3.7.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div
+            class="container w-50 py-4 px-5 bg-primary-subtle border-primary border border-bottom-0"
+        >
+            <table class="table table-primary">
+                <thead>
+                    <tr>
+                        <td class="p-0" colspan="2">
+                            <label for="" class="h5">Checkout</label>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border-bottom-0 px-0">
+                            <div class="row">
+                                <label for="" class="h6">Product 1</label>
+
+                                <input type="text" class="border-0 bg-transparent" placeholder="Lorem ipsum dolor sit amet"/>
+                            </div>
+                        </td>
+                        <td class="border-bottom-0">
+                            <label for="" class="h6 w-100 text-end">$200</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-0">
+                            <div class="row">
+                                <label for="" class="h6">Product 2</label>
+                                <input type="text" class="border-0 bg-transparent" placeholder="Lorem ipsum dolor sit amet"/>
+                            </div>
+                        </td>
+                        <td class="">
+                            <label for="" class="h6 w-100 text-end">$120</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border-bottom-0 px-0">
+                            <label for="" class="h6">Total</label>
+                        </td>
+                        <td class="border-bottom-0">
+                            <label for="" class="h6 w-100 text-end">$200</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container w-50 pt-4 pb-1 px-5 border border-primary border-top-0">
+            <form action="">
+                <div class="mb-3 mt-3 border-bottom">
+                    <label for="" class="h6">Credit Card Details</label>
+                </div>
+                <div class="mb-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <label for="" class="h6 text-body-tertiary">CARD HOLDER</label>
+                            <input type="text" placeholder="Card Holder" class="input-group-text mt-2 w-100 text-start py-2 form-control bg-transparent"/>
+                        </div>
+                        <div class="col-4">
+                            <label for="" class="h6 text-body-tertiary">EXPIRATION DATE</label>
+                            <div class="input-group mt-2">
+                                <input type="text" placeholder="MM" class="input-group-text w-25 text-start py-2 form-control bg-transparent"/>
+                                <span class="p-2"> / </span>
+                                <input type="text" placeholder="YY" class="input-group-text w-25 text-start py-2 form-control bg-transparent"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <div class="row">
+                        <div class="col-9">
+                            <label for="" class="h6 text-body-tertiary">CARD NUMBER</label>
+                            <input type="text" placeholder="Card Number" class="input-group-text mt-2 w-100 text-start py-2 form-control bg-transparent"/>
+                        </div>
+                        <div class="col-3">
+                            <label for="" class="h6 text-body-tertiary">CVC</label>
+                            <div class="input-group mt-2">
+                                <input type="text" placeholder="CVC" class="input-group-text w-25 text-start py-2 form-control bg-transparent"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary w-100 py-3 text-light fw-bold h5">
+                        Proceed
+                    </button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
